@@ -1,0 +1,70 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N3904
+D NPN Transistor
+K npn transistor
+$ENDCMP
+#
+$CMP 2N3906
+D PNP
+K pnp transistor
+$ENDCMP
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP Keystone_593
+D 9V Battery
+$ENDCMP
+#
+$CMP LM7171
+D Op amp.
+K AmpliOp
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LTL2T3TBK5
+D Blue LED
+K LED
+$ENDCMP
+#
+$CMP MC7805CTG
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MTD3010PM
+D Photodiode
+K Photodiode
+$ENDCMP
+#
+$CMP PN2369A
+D Fast NPN Transistor
+K npn transistor
+$ENDCMP
+#
+$CMP RB1-125BAG1A
+D RJ45 + Transformer
+K RJ45
+$ENDCMP
+#
+$CMP TAP107K006SCS
+D 100uF Tantalum Cap
+$ENDCMP
+#
+#End Doc Library
