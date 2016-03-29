@@ -1,0 +1,315 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:UC_the_Fish_Components
+LIBS:receiver-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 8700 6950 2    157  ~ 31
+BJT Stage 2
+$Comp
+L INDUCTOR L5
+U 1 1 56F9C0EB
+P 3150 3900
+F 0 "L5" V 3100 3900 50  0000 C CNN
+F 1 "0.1 uH" V 3250 3900 50  0000 C CNN
+F 2 "UC_the_Fish_Components:400Mil_Passive" H 3150 3900 50  0001 C CNN
+F 3 "" H 3150 3900 50  0000 C CNN
+	1    3150 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L C C5
+U 1 1 56F9C1F2
+P 3900 3900
+F 0 "C5" V 3750 3850 50  0000 L CNN
+F 1 "100nF" V 4050 3900 50  0000 L CNN
+F 2 "UC_the_Fish_Components:200Mil_Passive" H 3938 3750 50  0001 C CNN
+F 3 "" H 3900 3900 50  0000 C CNN
+	1    3900 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L 2N3904 Q5
+U 1 1 56F9C2C5
+P 4400 4800
+F 0 "Q5" H 4700 5000 50  0000 R CNN
+F 1 "2N3904" H 4900 4900 50  0000 R CNN
+F 2 "UC_the_Fish_Components:TO-92" H 4400 4525 50  0001 C CNN
+F 3 "" H 4400 4800 50  0000 C CNN
+	1    4400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2N3904 Q6
+U 1 1 56F9C36A
+P 6500 4800
+F 0 "Q6" H 6800 4850 50  0000 R CNN
+F 1 "2N3904" H 7000 4750 50  0000 R CNN
+F 2 "UC_the_Fish_Components:TO-92" H 6500 4525 50  0001 C CNN
+F 3 "" H 6500 4800 50  0000 C CNN
+	1    6500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2N3904 Q8
+U 1 1 56F9C41B
+P 5700 2700
+F 0 "Q8" H 6000 2750 50  0000 R CNN
+F 1 "2N3904" H 6200 2650 50  0000 R CNN
+F 2 "UC_the_Fish_Components:TO-92" H 5700 2425 50  0001 C CNN
+F 3 "" H 5700 2700 50  0000 C CNN
+	1    5700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PN2369A Q9
+U 1 1 56F9C4D6
+P 6500 3200
+F 0 "Q9" H 6800 3250 50  0000 R CNN
+F 1 "PN2369A" H 7050 3150 50  0000 R CNN
+F 2 "UC_the_Fish_Components:TO-92" H 6500 2925 50  0001 C CNN
+F 3 "" H 6500 3200 50  0000 C CNN
+	1    6500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PN2369A Q7
+U 1 1 56F9C561
+P 6500 3900
+F 0 "Q7" H 6800 3950 50  0000 R CNN
+F 1 "PN2369A" H 7050 3850 50  0000 R CNN
+F 2 "UC_the_Fish_Components:TO-92" H 6500 3625 50  0001 C CNN
+F 3 "" H 6500 3900 50  0000 C CNN
+	1    6500 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4800 6300 4800
+Wire Wire Line
+	3450 3900 3750 3900
+Wire Wire Line
+	2850 3900 2400 3900
+Connection ~ 4200 4800
+Wire Wire Line
+	4050 3900 6300 3900
+$Comp
+L R R5
+U 1 1 56F9CA98
+P 4500 2950
+F 0 "R5" V 4580 2950 50  0000 C CNN
+F 1 "2.7k" V 4500 2950 50  0000 C CNN
+F 2 "UC_the_Fish_Components:400Mil_Passive" V 4430 2950 50  0001 C CNN
+F 3 "" H 4500 2950 50  0000 C CNN
+	1    4500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 56F9CAC5
+P 5300 2350
+F 0 "R7" V 5380 2350 50  0000 C CNN
+F 1 "667" V 5300 2350 50  0000 C CNN
+F 2 "UC_the_Fish_Components:400Mil_Passive" V 5230 2350 50  0001 C CNN
+F 3 "" H 5300 2350 50  0000 C CNN
+	1    5300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 56F9CAFA
+P 5300 3050
+F 0 "R8" V 5380 3050 50  0000 C CNN
+F 1 "2k" V 5300 3050 50  0000 C CNN
+F 2 "UC_the_Fish_Components:400Mil_Passive" V 5230 3050 50  0001 C CNN
+F 3 "" H 5300 3050 50  0000 C CNN
+	1    5300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R_E5
+U 1 1 56F9CB43
+P 4500 5350
+F 0 "R_E5" V 4580 5350 50  0000 C CNN
+F 1 "342" V 4500 5350 50  0000 C CNN
+F 2 "UC_the_Fish_Components:400Mil_Passive" V 4430 5350 50  0001 C CNN
+F 3 "" H 4500 5350 50  0000 C CNN
+	1    4500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R_E6
+U 1 1 56F9CB9C
+P 6600 5350
+F 0 "R_E6" V 6680 5350 50  0000 C CNN
+F 1 "25" V 6600 5350 50  0000 C CNN
+F 2 "UC_the_Fish_Components:400Mil_Passive" V 6530 5350 50  0001 C CNN
+F 3 "" H 6600 5350 50  0000 C CNN
+	1    6600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R_dif1
+U 1 1 56F9CC29
+P 6600 2350
+F 0 "R_dif1" V 6680 2350 50  0000 C CNN
+F 1 "100" V 6600 2350 50  0000 C CNN
+F 2 "UC_the_Fish_Components:400Mil_Passive" V 6530 2350 50  0001 C CNN
+F 3 "" H 6600 2350 50  0000 C CNN
+	1    6600 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4100 6600 4600
+Wire Wire Line
+	6600 5000 6600 5200
+Wire Wire Line
+	4500 5000 4500 5200
+Wire Wire Line
+	6600 3400 6600 3700
+$Comp
+L CP1 C_E7
+U 1 1 56F9D144
+P 7500 4750
+F 0 "C_E7" H 7525 4850 50  0000 L CNN
+F 1 "100 uF" H 7525 4650 50  0000 L CNN
+F 2 "UC_the_Fish_Components:200Mil_Passive" H 7500 4750 50  0001 C CNN
+F 3 "" H 7500 4750 50  0000 C CNN
+	1    7500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4400 7500 4400
+Wire Wire Line
+	7500 4400 7500 4600
+Connection ~ 6600 4400
+Wire Wire Line
+	6600 2500 6600 3000
+Wire Wire Line
+	6600 2800 8500 2800
+Connection ~ 6600 2800
+Wire Wire Line
+	6600 1900 6600 2200
+Wire Wire Line
+	3600 1900 6600 1900
+Wire Wire Line
+	5800 1900 5800 2500
+Wire Wire Line
+	5300 1900 5300 2200
+Connection ~ 5800 1900
+Wire Wire Line
+	4500 1900 4500 2800
+Connection ~ 5300 1900
+Connection ~ 4500 1900
+Wire Wire Line
+	5300 2500 5300 2900
+Wire Wire Line
+	5500 2700 5300 2700
+Connection ~ 5300 2700
+Wire Wire Line
+	5800 2900 5800 3200
+Wire Wire Line
+	5800 3200 6300 3200
+Wire Wire Line
+	5300 3200 5300 3350
+$Comp
+L GND #PWR028
+U 1 1 56F9D7AE
+P 5300 3350
+F 0 "#PWR028" H 5300 3100 50  0001 C CNN
+F 1 "GND" H 5300 3200 50  0000 C CNN
+F 2 "" H 5300 3350 50  0000 C CNN
+F 3 "" H 5300 3350 50  0000 C CNN
+	1    5300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 56F9D840
+P 4500 5650
+F 0 "#PWR029" H 4500 5400 50  0001 C CNN
+F 1 "GND" H 4500 5500 50  0000 C CNN
+F 2 "" H 4500 5650 50  0000 C CNN
+F 3 "" H 4500 5650 50  0000 C CNN
+	1    4500 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 56F9D870
+P 6600 5650
+F 0 "#PWR030" H 6600 5400 50  0001 C CNN
+F 1 "GND" H 6600 5500 50  0000 C CNN
+F 2 "" H 6600 5650 50  0000 C CNN
+F 3 "" H 6600 5650 50  0000 C CNN
+	1    6600 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR031
+U 1 1 56F9D8D8
+P 7500 5100
+F 0 "#PWR031" H 7500 4850 50  0001 C CNN
+F 1 "GND" H 7500 4950 50  0000 C CNN
+F 2 "" H 7500 5100 50  0000 C CNN
+F 3 "" H 7500 5100 50  0000 C CNN
+	1    7500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5500 4500 5650
+Wire Wire Line
+	6600 5500 6600 5650
+Wire Wire Line
+	7500 4900 7500 5100
+Text HLabel 3600 1900 0    60   Input ~ 12
+cc
+Text HLabel 2400 3900 0    60   Input ~ 12
+in2
+Text HLabel 2400 4800 0    60   Input ~ 12
+mirror
+Text HLabel 8500 2800 2    60   Output ~ 12
+out2
+Wire Wire Line
+	4500 3100 4500 4600
+Connection ~ 4500 3900
+$EndSCHEMATC

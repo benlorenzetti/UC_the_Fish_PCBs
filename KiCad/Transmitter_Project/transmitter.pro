@@ -1,4 +1,4 @@
-update=Sat 26 Mar 2016 01:55:06 AM EDT
+update=Mon 28 Mar 2016 12:27:07 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../../UC_the_Fish_PCBs
+LibDir=/home/ben/Documents/UC_the_Fish_PCBs/KiCad
 [eeschema/libraries]
 LibName1=transmitter-rescue
 LibName2=power

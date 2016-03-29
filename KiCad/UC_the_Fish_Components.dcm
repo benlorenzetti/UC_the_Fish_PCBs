@@ -1,8 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP -9V
+K POWER, PWR
+$ENDCMP
+#
 $CMP 2N3904
 D NPN Transistor
 K npn transistor
+$ENDCMP
+#
+$CMP 2N3906
+D PNP
+K pnp transistor
 $ENDCMP
 #
 $CMP 78L05
@@ -18,18 +27,6 @@ $ENDCMP
 $CMP LM7171
 D Op amp.
 K AmpliOp
-$ENDCMP
-#
-$CMP LM7805
-D Linear Regulator +5V
-K POWER REGUL
-F regulator\lm78xx.pdf
-$ENDCMP
-#
-$CMP LM7812
-D Linear Regulator +12V
-K POWER REGUL
-F regulator\lm78xx.pdf
 $ENDCMP
 #
 $CMP LTL2T3TBK5
