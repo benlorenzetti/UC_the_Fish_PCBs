@@ -133,23 +133,23 @@ $EndComp
 $Comp
 L C C7
 U 1 1 56FA0FD5
-P 5200 4000
-F 0 "C7" V 5050 3950 50  0000 L CNN
-F 1 "330nF" V 5350 3900 50  0000 L CNN
-F 2 "UC_the_Fish_Components:200Mil_Passive" H 5238 3850 50  0001 C CNN
-F 3 "" H 5200 4000 50  0000 C CNN
-	1    5200 4000
+P 5150 4000
+F 0 "C7" V 5000 3950 50  0000 L CNN
+F 1 "330nF" V 5300 3900 50  0000 L CNN
+F 2 "UC_the_Fish_Components:200Mil_Passive" H 5188 3850 50  0001 C CNN
+F 3 "" H 5150 4000 50  0000 C CNN
+	1    5150 4000
 	0    1    1    0   
 $EndComp
 $Comp
 L C C11
 U 1 1 56FA1070
-P 6900 4100
-F 0 "C11" V 6750 4050 50  0000 L CNN
-F 1 "330nF" V 7050 4000 50  0000 L CNN
-F 2 "UC_the_Fish_Components:200Mil_Passive" H 6938 3950 50  0001 C CNN
-F 3 "" H 6900 4100 50  0000 C CNN
-	1    6900 4100
+P 6850 4100
+F 0 "C11" V 6700 4050 50  0000 L CNN
+F 1 "330nF" V 7000 4000 50  0000 L CNN
+F 2 "UC_the_Fish_Components:200Mil_Passive" H 6888 3950 50  0001 C CNN
+F 3 "" H 6850 4100 50  0000 C CNN
+	1    6850 4100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -475,13 +475,13 @@ F 3 "" H 2050 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 4000 5050 4000
+	4850 4000 5000 4000
 Wire Wire Line
 	5650 4000 5850 4000
 Wire Wire Line
 	5750 3250 6050 3250
 Wire Wire Line
-	6450 4100 6750 4100
+	6450 4100 6700 4100
 Wire Wire Line
 	6350 3250 6650 3250
 Wire Wire Line
@@ -818,4 +818,26 @@ F 3 "" H 1700 2550 50  0000 C CNN
 	1    1700 2550
 	1    0    0    -1  
 $EndComp
+Text GLabel 5300 3750 1    59   Input ~ 0
+n6
+Wire Wire Line
+	5300 4000 5350 4000
+Wire Wire Line
+	5300 4000 5300 3750
+Text GLabel 5750 3250 0    59   Input ~ 0
+in_3
+Text GLabel 6650 3250 2    59   Input ~ 0
+out3
+Wire Wire Line
+	7050 4100 7000 4100
+Wire Wire Line
+	7000 4100 7000 3850
+Text GLabel 7000 3850 1    59   Input ~ 0
+n10
+Text GLabel 7450 3250 0    59   Input ~ 0
+in_4
+Text GLabel 8350 3250 2    59   Input ~ 0
+out4
+Text GLabel 8900 4200 1    59   Input ~ 0
+RD
 $EndSCHEMATC

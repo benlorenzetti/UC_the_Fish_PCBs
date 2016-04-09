@@ -243,7 +243,7 @@ Connection ~ 4500 1900
 Wire Wire Line
 	5300 2500 5300 2900
 Wire Wire Line
-	5500 2700 5300 2700
+	5200 2700 5500 2700
 Connection ~ 5300 2700
 Wire Wire Line
 	5800 2900 5800 3200
@@ -312,4 +312,29 @@ out2
 Wire Wire Line
 	4500 3100 4500 4600
 Connection ~ 4500 3900
+Text GLabel 3600 3800 1    59   Input ~ 0
+n5
+Wire Wire Line
+	3600 3800 3600 3900
+Connection ~ 3600 3900
+Text GLabel 4500 3800 2    59   Input ~ 0
+b7
+Text GLabel 4600 5100 2    59   Input ~ 0
+e5
+Wire Wire Line
+	4600 5100 4500 5100
+Connection ~ 4500 5100
+Wire Wire Line
+	6600 5100 6750 5100
+Connection ~ 6600 5100
+Text GLabel 6750 5100 2    59   Input ~ 0
+e6
+Text GLabel 6600 4400 0    59   Input ~ 0
+e7
+Text GLabel 6600 3550 0    59   Input ~ 0
+c7
+Text GLabel 5800 3200 0    59   Input ~ 0
+b9
+Text GLabel 5200 2700 0    59   Input ~ 0
+b8
 $EndSCHEMATC

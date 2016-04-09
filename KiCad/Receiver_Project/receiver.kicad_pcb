@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 43.994714 68.905 208.330715 130.250001)
     (thickness 1.6)
-    (drawings 6)
+    (drawings 7)
     (tracks 221)
     (zones 0)
     (modules 52)
@@ -1278,6 +1278,9 @@
       (net 2 GND))
   )
 
+  (gr_text "Receiver PCB" (at 215.9 174.625) (layer Dwgs.User)
+    (effects (font (size 5.3594 5.3594) (thickness 1.016)))
+  )
   (dimension 44.45 (width 0.3) (layer Dwgs.User)
     (gr_text "1.7500 in" (at 202.645 107.95 270) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
