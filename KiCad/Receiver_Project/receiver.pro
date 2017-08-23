@@ -1,4 +1,4 @@
-update=Sat 09 Apr 2016 10:13:29 AM EDT
+update=Thu 14 Apr 2016 09:39:50 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=59
 [eeschema]
 version=1
-LibDir=/home/ben/Documents/UC_the_Fish_PCBs/KiCad
+LibDir=/home/ben/Documents/UC_the_Fish_PCBs/KiCad;../../../Ciao_Mondo/KiCad;../../../Breadboarding-Oven/KiCad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,13 +69,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=UC_the_Fish_Components
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=59
+LibName31=/home/ben/Documents/Ciao_Mondo/KiCad/ciao_mondo
+LibName32=/home/ben/Documents/Breadboarding-Oven/KiCad/Easy-PCB
